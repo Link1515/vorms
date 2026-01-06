@@ -10,7 +10,7 @@ import { useField } from '@vorms/core'
 
 const { value, error, attrs } = useField<string>('drink', {
   validate(value) {
-    return value ? 'This is required!!' : undefined
+    return !value ? 'This is required!!' : undefined
   }
 })
 </script>
