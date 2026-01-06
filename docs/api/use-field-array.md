@@ -149,7 +149,7 @@ console.log(fields.value.map(field => field.value))
 
 ### remove
 
-Remove the item by it index, or remove all when no index is provided.
+Remove the item by its index, or remove all when no index is provided.
 
 - Type `(index?: number) => void`
 

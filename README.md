@@ -10,7 +10,7 @@ Vue Form Validation with Composition API
 <a href="https://vorms.mini-ghost.dev/" target="__blank"><img src="https://img.shields.io/static/v1?label=&message=docs&color=3D957F" alt="Documentations"></a>
 <a href="https://www.npmjs.com/package/@vorms/core" target="__blank"><img alt="NPM Downloads" src="https://img.shields.io/npm/dm/@vorms/core?color=00629E&label="></a>
 <br>
-<a href="https://github.com//Mini-ghost/vorms" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mini-ghost/vorms?style=social"></a>
+<a href="https://github.com/Mini-ghost/vorms" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mini-ghost/vorms?style=social"></a>
 </p>
 
 ## Feature

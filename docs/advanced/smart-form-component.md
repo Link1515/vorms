@@ -130,4 +130,4 @@ const { value, attrs } = useField(nameRef)
 </template>
 ```
 
-Now, you can create and compose complex from in your project without the tears. This ideal is inspired by [React Hook Form](https://react-hook-form.com/advanced-usage#SmartFormComponent)
+Now, you can create and compose complex forms in your project without the tears. This idea is inspired by [React Hook Form](https://react-hook-form.com/advanced-usage#SmartFormComponent)

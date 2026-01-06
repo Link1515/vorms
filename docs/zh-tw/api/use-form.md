@@ -105,7 +105,7 @@ const { value: sugar, attrs: sugarFieldAttrs } = register('sugar', {
 默認情況下，驗證是在輸入事件變更（input change event）時觸發的。
 
 :::info
-即使您的 `reValidationMode` 沒有設置為 `submit`，Vorms 仍然會在提交之前重新驗證。
+即使您的 `reValidateMode` 沒有設置為 `submit`，Vorms 仍然會在提交之前重新驗證。
 :::
 
 - Type `'blur' | 'input' | 'change' | 'submit'`

@@ -101,7 +101,7 @@ This option allows you to configure the validation strategy **before** first sub
 This option allows you to configure the validation strategy **after** first submit. By default, validation is triggered during the input change event.
 
 :::info
-Even if your `reValidationMode` is not set to `submit`, Vorms will revalidate before submitting.
+Even if your `reValidateMode` is not set to `submit`, Vorms will revalidate before submitting.
 :::
 
 - Type `'blur' | 'input' | 'change' | 'submit'`
@@ -218,7 +218,7 @@ This validate value could either be:
 
 ### onSubmit (Required)
 
-This is your form submission handler, witch will pass your form's `values`. But this will not be called if the validation failed.
+This is your form submission handler, which will pass your form's `values`. But this will not be called if the validation failed.
 
 - Type
 
