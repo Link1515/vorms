@@ -214,7 +214,7 @@ const { fields, update } = useFieldArray('food')
 console.log(fields.value.map(field => field.value))
 // output:  ['Fried Chicken', 'Bubble Tea']
 
-insert(0, 'Soup Dumplings')
+update(0, 'Soup Dumplings')
 console.log(fields.value.map(field => field.value))
 // output:  ['Soup Dumplings', 'Bubble Tea']
 ```
@@ -226,12 +226,12 @@ Replace the entire field array values.
 - Type `(values: Value[]) => void`
 
 ```ts
-const { fields, update } = useFieldArray('food')
+const { fields, replace } = useFieldArray('food')
 
 console.log(fields.value.map(field => field.value))
 // output:  ['Fried Chicken', 'Bubble Tea']
 
-insert(['Soup Dumplings', 'Three-Cup Chicken'])
+replace(['Soup Dumplings', 'Three-Cup Chicken'])
 console.log(fields.value.map(field => field.value))
 // output:  ['Soup Dumplings', 'Three-Cup Chicken']
 ```
